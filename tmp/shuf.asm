@@ -1,0 +1,17 @@
+ .ORIG x3000
+ADD R0 R0 #0
+BRZ STOP
+LEA R1, arr
+LDW R1, R1, #0
+LOOP LDB R2, R1, #0
+LDB R3, R1, #1
+LSHF R3, R3, #8
+ADD R4, R3, R2
+STW R4, R1, #0
+ADD R0, R0, #-1
+BRZ Stop
+ADD R1, R1, #2
+BR Loop
+arr .FILL x3050
+Stop HALT
+.END
