@@ -9,7 +9,7 @@
       "type": "cppdbg",
       "request": "launch",
       "program": "${fileDirname}/simulate",
-      "args": ["ucode3", "scripts/binary/rshfa-py.obj"],
+      "args": ["ucode3", "scripts/binary/jsr_label_far_bot.obj"],
       "stopAtEntry": false,
       "cwd": "${fileDirname}",
       "environment": [],

@@ -1,7 +1,5 @@
 import os
 
-# todo: we should fix sanity first, and then finish these branch tests
-
 file1 = open("assembly/br_label_far_bot.asm", "w")
 
 file1.write(".ORIG x1000\n")
