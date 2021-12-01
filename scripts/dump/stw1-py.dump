@@ -1,14 +1,21 @@
+
 Current register/bus values :
 -------------------------------------
-PC                : 0x0000
+Cycle Count  : 445
+PC           : 0x0000
+IR           : 0xf025
+STATE_NUMBER : 0x0012
+
+BUS          : 0x0000
+MDR          : 0x0000
+MAR          : 0x004a
 CCs: N = 0  Z = 0  P = 1
 Registers:
 0: 0x0000
 1: 0x001f
 2: 0x0002
 3: 0x0003
-4: 0x0004
-5: 0x305e
-6: 0xf025
-7: 0x3020
+4: 0x305a
+5: 0xf025
+7: 0x301c
 

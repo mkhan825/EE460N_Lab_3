@@ -445,7 +445,7 @@ def generate_asm():
   file1.write("ADD R5, R5, #15\n")
   file1.write("LEA R4, A\n")
   file1.write("LOOP  AND R1, R1, #0\n")
-  for i in range(31):
+  for i in range(32):
     file1.write("ADD R1, R1, #1\n")
   file1.write("A  STW R5, R4, #-32\n")
   file1.write("BR LOOP\n")
@@ -528,7 +528,7 @@ def check_dump():
 
 print("Generating assembly and binary files\n")
 generate_asm()
-os.system("gcc -std=c99 -o ../simulate ../lc3bsim4.c")
+os.system("gcc -std=c99 -o ../simulate ../lc3bsim3.c")
 os.system("./run_sanity.sh")
 check_dump()
 

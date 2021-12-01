@@ -5,10 +5,8 @@ ADD R2, R2, #2
 ADD R3, R3, #3
 ADD R4, R4, #4
 ADD R5, R5, #5
-ADD R6, R6, #6
-ADD R7, R7, #7
-AND R6, R6, #0
-NOT R6, R6
-AND R6, R6, #-16
+AND R5, R5, #0
+NOT R5, R5
+AND R5, R5, #-16
 HALT
 .END

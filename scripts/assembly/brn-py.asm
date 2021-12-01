@@ -5,11 +5,8 @@ ADD R2, R2, #2
 ADD R3, R3, #3
 ADD R4, R4, #4
 ADD R5, R5, #5
-ADD R6, R6, #6
-ADD R7, R7, #7
 ADD R0, R0, #-1
 BRN A
-ADD R0, R0, #1
-ADD R6, R6, #-16
+ADD R5, R5, #-16
 A  HALT
 .END
